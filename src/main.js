@@ -12,8 +12,10 @@ Vue.use(VueCookies)
 //样式
 import './assets/css/normalize.css'
 //阿里
-import './assets/iconfont/iconfont.css'
+// import './assets/iconfont/iconfont.css'
 Vue.config.productionTip = false;
+// 引入字体文件
+import '../src/styles/index.css'
 
 Vue.prototype.$get = getHttp;
 Vue.prototype.$post = postHttp;
