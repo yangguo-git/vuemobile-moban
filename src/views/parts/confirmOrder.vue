@@ -73,7 +73,7 @@
 </template>
 <script>
 import Header from '../../components/header'
-import unils from "../../assets/utils/util.js"
+import utils from "../../utils/util.js"
 export default {
     data(){
         return{

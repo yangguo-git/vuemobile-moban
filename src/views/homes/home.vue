@@ -36,7 +36,7 @@
 </template>
 
 <script>
-    import utils from "../../assets/utils/util.js"
+    import utils from "../../utils/util.js"
 	import Header from '../../components/header'
 	import Footer from '../../components/footer'
 	export default {
