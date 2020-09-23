@@ -76,7 +76,7 @@
 		ImagePreview
 	} from 'vant';
 	import Header from '../../components/header'
-	import unils from "../../assets/js/common.js"
+	import unils from "../../assets/utils/util.js"
 	import Vue from 'vue'
 	export default {
 		data() {

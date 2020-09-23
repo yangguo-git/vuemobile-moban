@@ -38,7 +38,7 @@
 	</div>
 </template>
 <script>
-    import unils from "../../assets/js/common.js"
+    import unils from "../../assets/utils/util.js"
 	import Header from '../../components/header'
 	import Footer from '../../components/footer'
 	export default {
