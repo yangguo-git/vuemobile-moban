@@ -55,7 +55,7 @@
 				if(res.data.status == 0){
 				   this.adressList = res.data.data;
 				}else{
-				   this.$toast("获取信息失败")
+				   this.$toast("获取信息失败修改提示信息")
 				}
 			})
 
