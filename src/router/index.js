@@ -4,40 +4,20 @@ import store from '../store'
 
 Vue.use(VueRouter);
 
-const Home = () => import('@/views/homes/home');
-const Mine = () => import('@/views/mines/mine');
-const Part = () => import('@/views/parts/part');
-const Layout = () => import('@/views/layout/layout');
-const Login = () => import('@/views/login/login');
+const Merchant = () => import('@/views/merchant/merchant');
 
 const routes = [
 	{
 		path: '/',
-		component: Layout,
-		children: [
-			{
-				path: '',
-				name: 'Home',
-				component: Home
-			},
-			{
-				path: '/mine',
-				name: 'Mine',
-				component: Mine
-			},
-			{
-				path: '/part',
-				name: 'Part',
-				component: Part
-			}
-		]
+		name: 'merchant',
+		component: Merchant
 
 	},
-	{
-		path: '/login',
-		name: 'Login',
-		component: Login
-	}
+	// {
+	// 	path: '/login',
+	// 	name: 'Login',
+	// 	component: Login
+	// }
 
 ];
 
